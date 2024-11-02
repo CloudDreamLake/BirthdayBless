@@ -5,3 +5,4 @@ assets/avatars
 *.spec
 .idea
 .vscode
+build.tar.gz
