@@ -8,3 +8,6 @@ pyinstaller -F -w .\main.py
 
 xcopy .\Load2Desktop.dll .\dist\Load2Desktop.dll /y
 xcopy .\assets\ .\dist\assets /s/y
+
+del .\build.tar.gz
+tar -cf build.tar.gz .\dist
