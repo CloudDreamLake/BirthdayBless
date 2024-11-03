@@ -1,0 +1,7 @@
+venv
+build
+dist
+assets/avatars
+*.spec
+.idea
+.vscode
